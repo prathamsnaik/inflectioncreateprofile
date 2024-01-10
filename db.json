@@ -5,7 +5,42 @@
   "persons": [
     {
       "id": "-1",
-      "birthDay": 2
+      "names": [
+        {
+          "fullName": "Matrix,Neo Trinity",
+          "lastName": "Matrix",
+          "firstName": "Neo",
+          "isPrimary": false,
+          "middleName": "Trinity"
+        },
+        {
+          "fullName": "Matrix,Neeo",
+          "lastName": "Matrix",
+          "firstName": "Neeo",
+          "isPrimary": false
+        },
+        {
+          "fullName": "Incognito,Choseone",
+          "lastName": "Incognito",
+          "firstName": "Chosenone",
+          "isPrimary": false
+        }
+      ],
+      "birthDay": 2,
+      "addresses": [
+        {
+          "city": "MINNEAPOLIS",
+          "state": "MN",
+          "address1": "129 Red Pill Road",
+          "isPrimary": false
+        },
+        {
+          "city": "MINNEAPOLIS",
+          "state": "MN",
+          "address1": "1318 Blue Pill Way",
+          "isPrimary": false
+        }
+      ],
       "birthYear": 1951,
       "birthMonth": 5,
       "criminalRecords": [
@@ -30,58 +65,137 @@
               "dispositionType": "GUILTY",
               "offenseSubclass": "homicide with intent"
             },
-            
-			{
-				"caseNumber":"",
-				"caseType":"",
-				"maximumTerm":"",
-				"minimumTerm":"",
-				"numberCounts":"",
-				"offenseDate":"",
-				"offenseClass":"",
-				"offenseSubclass":"",
-				"offenseCode":"",
-				"offenseDescr":"",
-				"sentenceDate":"",
-				"sentenceType":"",
-				"sentenceDescription":"",
-				"nextCourtDate":"",
-				"incarcerationDate":"",
-				"arrestDate":"",
-				"arrestingAgency":"",
-				"courtCaseNumber":"",
-				"courtName":"",
-				"courtDescription":"",
-				"courtPlea":"",
-				"releaseDate":"",
-				"recordDate":"",
-				"caseFilingDate":"",
-				"chargeType":"",
-				"disposition":"",
-				"dispositionType":"",
-				"dispositionDate":"",
-				"probationSentenceLength":"",
-				"custodialAgency":"",
-				"offenseSeverity":"",
-				"offenseDegree":"",
-				"offenseLevel":"",
-				"comments":"",
-				"adjudicationWithheld":"",
-				"county":"",
-				"convictionJurisdiction":"",
-				"victims":[
-					{
-						"age":32,
-						"victimMinor":true,
-						"victimGender":"",
-						"victimRelationship":""
-					}
-				]				
-			}
+            {
+              "courtName": "RAMSEY DIST COURT",
+              "caseNumber": "97007145",
+              "recordDate": "2016-09-22",
+              "disposition": "Convicted",
+              "offenseCode": "152.025",
+              "offenseClass": "substance",
+              "offenseDescr": "35-48-4-6(a)/F6: Possession of Cocaine",
+              "offenseLevel": "FELONY",
+              "offenseDegree": "Felony",
+              "arrestingAgency": "ST PAUL PD",
+              "courtCaseNumber": "97007145",
+              "dispositionDate": "2016-09-22",
+              "dispositionType": "GUILTY",
+              "offenseSubclass": "schedule I and II drug use"
+            },
+            {
+              "courtName": "HENNEPIN CO DISTRICT COURT",
+              "caseNumber": "05261244",
+              "recordDate": "2015-09-21",
+              "disposition": "Convicted",
+              "offenseCode": "152.025",
+              "offenseClass": "financial",
+              "offenseDescr": "Forgery",
+              "offenseLevel": "FELONY",
+              "offenseDegree": "Felony",
+              "arrestingAgency": "MINNEAPOLIS PD",
+              "courtCaseNumber": "05261244",
+              "dispositionDate": "2015-09-21",
+              "dispositionType": "GUILTY",
+              "offenseSubclass": "forgery"
+            },
+            {
+              "courtName": "HENNEPIN CO DISTRICT COURT",
+              "caseNumber": "05010818",
+              "recordDate": "2016-09-21",
+              "disposition": "Convicted",
+              "offenseCode": "609.52",
+              "offenseClass": "property",
+              "offenseDescr": "Grand Theft",
+              "offenseLevel": "FELONY",
+              "offenseDegree": "Felony",
+              "arrestingAgency": "BLOOMINGTON PD",
+              "courtCaseNumber": "05010818",
+              "dispositionDate": "2016-09-21",
+              "dispositionType": "GUILTY",
+              "offenseSubclass": "theft and possession of stolen goods"
+            },
+            {
+              "courtName": "HENNEPIN CO DISTRICT COURT",
+              "caseNumber": "94005640",
+              "recordDate": "2011-07-12",
+              "disposition": "Convicted",
+              "offenseCode": "X",
+              "offenseClass": "sex",
+              "offenseDescr": "Sexual Molestation",
+              "offenseLevel": "FELONY",
+              "offenseDegree": "Felony",
+              "arrestingAgency": "RICHFIELD PD",
+              "courtCaseNumber": "94005640",
+              "dispositionDate": "2011-07-12",
+              "dispositionType": "GUILTY",
+              "offenseSubclass": "sexual assault"
+            },
+            {
+              "courtName": "HENNEPIN CO DISTRICT COURT",
+              "caseNumber": "04334057",
+              "recordDate": "2011-01-21",
+              "disposition": "Convicted",
+              "offenseCode": "X",
+              "offenseClass": "property",
+              "offenseDescr": "Trespassing and Vandalism",
+              "offenseLevel": "MISDEMEANOR",
+              "offenseDegree": "Misdemeanor",
+              "arrestingAgency": "MINNEAPOLIS PD",
+              "courtCaseNumber": "04334057",
+              "dispositionDate": "2011-01-21",
+              "dispositionType": "GUILTY",
+              "offenseSubclass": "trespassing"
+            },
+            {
+              "courtName": "HENNEPIN CO DISTRICT COURT",
+              "caseNumber": "12000828",
+              "recordDate": "2013-08-23",
+              "disposition": "Convicted",
+              "offenseCode": "X",
+              "offenseClass": "public conduct",
+              "offenseDescr": "Disrupting the peace",
+              "offenseLevel": "INFRACTION/VIOLATION/ORDINANCE/TRAFFIC",
+              "offenseDegree": "UNKNOWN",
+              "arrestingAgency": "HOPKINS PD",
+              "courtCaseNumber": "12000828",
+              "dispositionDate": "2013-08-28",
+              "dispositionType": "GUILTY",
+              "offenseSubclass": "disturbing the peace"
+            },
+            {
+              "courtName": "HENNEPIN CO DISTRICT COURT",
+              "caseNumber": "05540151",
+              "recordDate": "2014-05-31",
+              "disposition": "Convicted",
+              "offenseCode": "169.13.2",
+              "offenseClass": "traffic",
+              "offenseDescr": "Traffic - Careless Driving",
+              "offenseLevel": "MISDEMEANOR",
+              "offenseDegree": "Misdemeanor",
+              "arrestingAgency": "MN STATE PATROL - GOLDEN VALLEY",
+              "courtCaseNumber": "05540151",
+              "dispositionDate": "2014-05-31",
+              "dispositionType": "GUILTY",
+              "offenseSubclass": "vehicular endangerment"
+            },
+            {
+              "courtName": "ANOKA DIST COURT",
+              "caseNumber": "11269828",
+              "recordDate": "2014-02-24",
+              "disposition": "Convicted",
+              "offenseCode": "169.13.2",
+              "offenseClass": "traffic",
+              "offenseDescr": "Vehicle Registration Expired",
+              "offenseLevel": "INFRACTION/VIOLATION/ORDINANCE/TRAFFIC",
+              "offenseDegree": "Infraction",
+              "arrestingAgency": "COLUMBIA HEIGHTS POLICE",
+              "courtCaseNumber": "11269828",
+              "dispositionDate": "2014-02-24",
+              "dispositionType": "GUILTY",
+              "offenseSubclass": "license and documentation"
+            }
           ],
           "birthDay": "29",
           "fullName": "Matrix,Neo Trinity",
-		  "dob":"",
           "lastName": "Matrix",
           "birthYear": "1981",
           "docNumber": "CR118928",
@@ -89,71 +203,12 @@
           "birthMonth": "6",
           "middleName": "Trinity",
           "offenderId": "500767X GXX",
-		  "race":"",
-		  "ethnicity":"",
-		  "gender":"",
-		  "hairColor":"",
-		  "eyeColor":"",
-		  "height":"",
-		  "weight":"",
-		  "skin":"",
-		  "build":"",
-		  "source":"",
-		  "sourceName":"",
-		  "category":"",
-		  "crimeType":"",
-		  "stateOfBirth":"",
-		  "riskLevel":"",
-		  "convictionPlace":"",
-		  "status":"",
-		  "docNumber":"",
-		  "sorNumber":"",
-		  "stateIdNumber":"",
-		  "fbiNumber":"",		  
           "jurisdiction": {
             "state": "MN"
           },
           "stateOfOrigin": "MN",
           "criminalRecordSourceType": "court",
-          "criminalRecordSourceSubType": "DOC",
-		  "Names":[
-			  {
-				  "isPrimary":false,
-				  "fullName":"asdasf adasda asf",
-				  "firstName":"asdfadf",
-				  "middleName":"asd",
-				  "lastName":"asd",
-				  "prefixes":"asd",
-				  "maidenName":"asd",
-				  "suffixes":"asdasd"
-			  }
-		  ],
-		  "Addresses":[
-			  {
-				  "isPrimary":false,
-				  "address1":"asda",
-				  "address2" :"asd",
-				  "address3":"",
-				  "houseNum":"",
-				  "unitType":"",
-				  "unitNum":"",
-				  "county":"",
-				  "countyCode":"",
-				  "city":"",
-				  "state":"",
-				  "stateCode":"",
-				  "postalCode":"",
-				  "country":"",
-				  "zipCode":"",
-				  "dateFrom":"",
-				  "dateTo":""
-			  }
-		  ],
-		  "DOBS":[
-			  {
-				"Date":""
-			  }
-		  ]
+          "criminalRecordSourceSubType": "DOC"
         },
         {
           "id": "Bvbigg7NpCUnYNRLBnDCew==",
@@ -181,6 +236,5 @@
   ],
   "SearchDomain": "Criminal",
   "dateExecuted": "Tuesday, November 28, 2017 12:03 PM",
-  "totalTimeInSeconds": 0.971981,
-  "adjudicationstatus":""
+  "totalTimeInSeconds": 0.971981
 }
