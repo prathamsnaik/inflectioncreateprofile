@@ -1,0 +1,186 @@
+{
+  "key": "2baa7186-5804-49d7-920b-2fa8b9736b95",
+  "status": "PendingReview",
+  "userID": "1234",
+  "persons": [
+    {
+      "id": "-1",
+      "birthDay": 2
+      "birthYear": 1951,
+      "birthMonth": 5,
+      "criminalRecords": [
+        {
+          "id": "mvbigg7NpCUnYNRLBnDCSw==",
+          "dob": "1981-06-29",
+          "source": "MN_Bureau_of_Criminal_Apprehension",
+          "Offenses": [
+            {
+              "courtName": "HENNEPIN CO DISTRICT COURT",
+              "caseNumber": "13054092",
+              "recordDate": "2015-09-09",
+              "disposition": "Convicted",
+              "offenseCode": "609.19.1(1)",
+              "offenseClass": "harm",
+              "offenseDescr": "Murder - 2nd Degree - With Intent-Not Premeditated",
+              "offenseLevel": "FELONY",
+              "offenseDegree": "Felony",
+              "arrestingAgency": "MINNEAPOLIS PD",
+              "courtCaseNumber": "13054092",
+              "dispositionDate": "2015-09-09",
+              "dispositionType": "GUILTY",
+              "offenseSubclass": "homicide with intent"
+            },
+            
+			{
+				"caseNumber":"",
+				"caseType":"",
+				"maximumTerm":"",
+				"minimumTerm":"",
+				"numberCounts":"",
+				"offenseDate":"",
+				"offenseClass":"",
+				"offenseSubclass":"",
+				"offenseCode":"",
+				"offenseDescr":"",
+				"sentenceDate":"",
+				"sentenceType":"",
+				"sentenceDescription":"",
+				"nextCourtDate":"",
+				"incarcerationDate":"",
+				"arrestDate":"",
+				"arrestingAgency":"",
+				"courtCaseNumber":"",
+				"courtName":"",
+				"courtDescription":"",
+				"courtPlea":"",
+				"releaseDate":"",
+				"recordDate":"",
+				"caseFilingDate":"",
+				"chargeType":"",
+				"disposition":"",
+				"dispositionType":"",
+				"dispositionDate":"",
+				"probationSentenceLength":"",
+				"custodialAgency":"",
+				"offenseSeverity":"",
+				"offenseDegree":"",
+				"offenseLevel":"",
+				"comments":"",
+				"adjudicationWithheld":"",
+				"county":"",
+				"convictionJurisdiction":"",
+				"victims":[
+					{
+						"age":32,
+						"victimMinor":true,
+						"victimGender":"",
+						"victimRelationship":""
+					}
+				]				
+			}
+          ],
+          "birthDay": "29",
+          "fullName": "Matrix,Neo Trinity",
+		  "dob":"",
+          "lastName": "Matrix",
+          "birthYear": "1981",
+          "docNumber": "CR118928",
+          "firstName": "Neo",
+          "birthMonth": "6",
+          "middleName": "Trinity",
+          "offenderId": "500767X GXX",
+		  "race":"",
+		  "ethnicity":"",
+		  "gender":"",
+		  "hairColor":"",
+		  "eyeColor":"",
+		  "height":"",
+		  "weight":"",
+		  "skin":"",
+		  "build":"",
+		  "source":"",
+		  "sourceName":"",
+		  "category":"",
+		  "crimeType":"",
+		  "stateOfBirth":"",
+		  "riskLevel":"",
+		  "convictionPlace":"",
+		  "status":"",
+		  "docNumber":"",
+		  "sorNumber":"",
+		  "stateIdNumber":"",
+		  "fbiNumber":"",		  
+          "jurisdiction": {
+            "state": "MN"
+          },
+          "stateOfOrigin": "MN",
+          "criminalRecordSourceType": "court",
+          "criminalRecordSourceSubType": "DOC",
+		  "Names":[
+			  {
+				  "isPrimary":false,
+				  "fullName":"asdasf adasda asf",
+				  "firstName":"asdfadf",
+				  "middleName":"asd",
+				  "lastName":"asd",
+				  "prefixes":"asd",
+				  "maidenName":"asd",
+				  "suffixes":"asdasd"
+			  }
+		  ],
+		  "Addresses":[
+			  {
+				  "isPrimary":false,
+				  "address1":"asda",
+				  "address2" :"asd",
+				  "address3":"",
+				  "houseNum":"",
+				  "unitType":"",
+				  "unitNum":"",
+				  "county":"",
+				  "countyCode":"",
+				  "city":"",
+				  "state":"",
+				  "stateCode":"",
+				  "postalCode":"",
+				  "country":"",
+				  "zipCode":"",
+				  "dateFrom":"",
+				  "dateTo":""
+			  }
+		  ],
+		  "DOBS":[
+			  {
+				"Date":""
+			  }
+		  ]
+        },
+        {
+          "id": "Bvbigg7NpCUnYNRLBnDCew==",
+          "race": "W",
+          "gender": "male",
+          "height": "510",
+          "source": "MN",
+          "weight": "171",
+          "Offenses": [
+            {
+              "offenseClass": "harm",
+              "offenseDescr": "AGGRAVATED CRIMINAL SEX ABUSE/BODILY HARM",
+              "offenseSubclass": "physical harm",
+              "convictionJurisdiction": "Peoria"
+            }
+          ],
+          "sorNumber": "MN-MATRIXNEO19740906510",
+          "offenderId": "MN-MATRIXNEO19740906510",
+          "stateOfOrigin": "MN",
+          "criminalRecordSourceType": "sexoffenderlist",
+          "criminalRecordSourceSubType": "sex offender registry"
+        }
+      ]
+    }
+  ],
+  "SearchDomain": "Criminal",
+  "dateExecuted": "Tuesday, November 28, 2017 12:03 PM",
+  "totalTimeInSeconds": 0.971981,
+  "adjudicationstatus":""
+}
